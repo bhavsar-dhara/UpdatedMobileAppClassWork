@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/project_root"
     android:background="@color/gray_color"
-    tools:context="edu.neu.madcourse.dharabhavsar.ui.project.WearableLaunchActivity">
+    tools:context="edu.neu.madcourse.dharabhavsar1.ui.project.WearableLaunchActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/app_toolbar"

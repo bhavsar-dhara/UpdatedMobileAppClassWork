@@ -6,7 +6,7 @@
     android:clipChildren="false"
     tools:context=".ScraggleActivity3">
 
-    <edu.neu.madcourse.dharabhavsar.ui.communication2player.ScrollingViewScraggle2
+    <edu.neu.madcourse.dharabhavsar1.ui.communication2player.ScrollingViewScraggle2
         android:id="@+id/main_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/main_fragment_scraggle"
-        class="edu.neu.madcourse.dharabhavsar.ui.communication2player.MainFragmentScraggle3"
+        class="edu.neu.madcourse.dharabhavsar1.ui.communication2player.MainFragmentScraggle3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

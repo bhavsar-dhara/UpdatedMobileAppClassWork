@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.neu.madcourse.dharabhavsar.ui.main">
+    package="edu.neu.madcourse.dharabhavsar1.ui.main">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE"/>
@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".SensorActivity"
+            android:name="edu.neu.madcourse.dharabhavsar1.ui.main.SensorActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.android.wearable.datalayer.EXAMPLE"/>
@@ -27,7 +27,7 @@
             android:value="@integer/google_play_services_version" />
 
         <service
-            android:name=".PhoneListenerService" >
+            android:name="edu.neu.madcourse.dharabhavsar1.ui.main.PhoneListenerService" >
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
@@ -35,7 +35,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="edu.neu.madcourse.dharabhavsar1.ui.main.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,13 +44,13 @@
         </activity>
 
         <activity
-            android:name=".WorkoutViewActivity"
+            android:name="edu.neu.madcourse.dharabhavsar1.ui.main.WorkoutViewActivity"
             android:exported="true"
             android:allowEmbedded="true"
             android:label="@string/app_name"
             android:taskAffinity="" />
 
-        <activity android:name=".CustomWearableList"
+        <activity android:name="edu.neu.madcourse.dharabhavsar1.ui.main.CustomWearableList"
             android:label="WearableList" >
             <intent-filter>
                 <action android:name="com.example.android.wearable.datalayer.EXAMPLE"/>
@@ -59,7 +59,7 @@
         </activity>
 
         <activity
-            android:name=".StatsActivity"
+            android:name="edu.neu.madcourse.dharabhavsar1.ui.main.StatsActivity"
             android:exported="true"
             android:allowEmbedded="true"
             android:label="@string/app_name"

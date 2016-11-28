@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<edu.neu.madcourse.dharabhavsar.ui.main.WearableListItemLayout
+<edu.neu.madcourse.dharabhavsar1.ui.main.WearableListItemLayout
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 android:gravity="center"
@@ -37,4 +37,4 @@ android:layout_height="80dip">
 
     </LinearLayout>
 
-</edu.neu.madcourse.dharabhavsar.ui.main.WearableListItemLayout>
+</edu.neu.madcourse.dharabhavsar1.ui.main.WearableListItemLayout>
