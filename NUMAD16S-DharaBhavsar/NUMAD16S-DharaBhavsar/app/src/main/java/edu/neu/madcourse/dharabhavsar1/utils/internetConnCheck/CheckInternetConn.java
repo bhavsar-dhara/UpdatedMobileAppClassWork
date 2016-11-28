@@ -1,4 +1,4 @@
-package edu.neu.madcourse.dharabhavsar1.utils.internetconncheck;
+package edu.neu.madcourse.dharabhavsar1.utils.internetConnCheck;
 
 /**
  * Created by Dhara on 3/25/2016.

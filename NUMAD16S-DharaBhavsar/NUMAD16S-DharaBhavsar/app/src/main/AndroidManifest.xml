@@ -139,7 +139,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.neu.madcourse.dharabhavsar1.ui.communication2player.MainActivityScraggle2" />
         </activity>
-        <receiver android:name="edu.neu.madcourse.dharabhavsar1.utils.internetconncheck.DetectInternetConnBroadcastReceiver">
+        <receiver android:name="edu.neu.madcourse.dharabhavsar1.utils.internetConnCheck.DetectInternetConnBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />

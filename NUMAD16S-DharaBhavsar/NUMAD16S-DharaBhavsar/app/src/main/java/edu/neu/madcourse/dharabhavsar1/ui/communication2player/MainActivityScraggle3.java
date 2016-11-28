@@ -21,7 +21,7 @@ import edu.neu.madcourse.dharabhavsar1.ui.main.R;
 import edu.neu.madcourse.dharabhavsar1.utils.Constants;
 import edu.neu.madcourse.dharabhavsar1.utils.firebaseconn.RemoteClient;
 import edu.neu.madcourse.dharabhavsar1.utils.gcmcomm.CommunicationMain;
-import edu.neu.madcourse.dharabhavsar1.utils.internetconncheck.DetectInternetConn;
+import edu.neu.madcourse.dharabhavsar1.utils.internetConnCheck.DetectInternetConn;
 
 public class MainActivityScraggle3 extends Activity {
     private MediaPlayer mMediaPlayer;

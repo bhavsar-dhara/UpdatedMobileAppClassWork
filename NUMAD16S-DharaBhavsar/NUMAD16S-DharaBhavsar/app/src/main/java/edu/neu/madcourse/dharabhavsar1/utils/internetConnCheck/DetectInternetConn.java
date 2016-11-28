@@ -1,4 +1,4 @@
-package edu.neu.madcourse.dharabhavsar1.utils.internetconncheck;
+package edu.neu.madcourse.dharabhavsar1.utils.internetConnCheck;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
