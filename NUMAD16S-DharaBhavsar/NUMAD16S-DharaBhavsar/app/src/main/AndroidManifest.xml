@@ -84,6 +84,14 @@
         </activity>
 
         <activity
+            android:name="edu.neu.madcourse.dharabhavsar1.ui.about.MainActivityAbout"
+            android:label="@string/about_app_screen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.neu.madcourse.dharabhavsar1.ui.about.MainActivityAbout" />
+        </activity>
+
+        <activity
             android:name="edu.neu.madcourse.dharabhavsar1.ui.project.WearableLaunchActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.CustomActionBar">
@@ -116,7 +124,7 @@
 
         <activity
             android:name="edu.neu.madcourse.dharabhavsar1.utils.gcmcomm.CommunicationMain"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
 
         <receiver
             android:name="edu.neu.madcourse.dharabhavsar1.utils.gcmcomm.GcmBroadcastReceiver"
@@ -197,14 +205,6 @@
                 android:value="edu.neu.madcourse.dharabhavsar1.ui.ut3.MainActivityUt3" />
         </activity>
         <activity android:name="edu.neu.madcourse.dharabhavsar1.ui.ut3.GameActivity" />
-
-        <activity
-            android:name="edu.neu.madcourse.dharabhavsar1.ui.about.MainActivityAbout"
-            android:label="@string/about_app_screen">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="edu.neu.madcourse.dharabhavsar1.ui.about.MainActivityAbout" />
-        </activity>
 
         <activity
             android:name="edu.neu.madcourse.dharabhavsar1.ui.dictionary.MainActivityDict"
