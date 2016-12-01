@@ -14,6 +14,7 @@ import android.text.method.KeyListener;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
@@ -212,6 +213,26 @@ public class MainActivityDict extends AppCompatActivity {
                 .putString(PREF_RESTORE, gameData)
                 .commit();
         Log.d("MainActivityDict", "state = " + gameData);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+        overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_from_right);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == android.R.id.home) {
+            finish();
+            overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_from_right);
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     //    getData()
